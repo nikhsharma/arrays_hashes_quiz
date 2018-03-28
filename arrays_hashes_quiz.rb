@@ -23,7 +23,6 @@ stops.delete_at(2)
 # 7. How many stops there are in the array?
 stops.count
 # 8. How many ways can we return `"Falkirk High"` from the array?
-stops
 stops[2]
 stops[-5]
 stops.at(2)
@@ -99,10 +98,15 @@ users = {
 ### Complete these tasks:
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
+users["Jonathan"][:twitter]
 # 2. Get Erik's hometown
+users["Erik"][:home_town]
 # 3. Get the array of Erik's lottery numbers
+users["Erik"][:lottery_numbers]
 # 4. Get the type of Avril's pet Monty
+users["Avril"][:pets][0][:species]
 # 5. Get the smallest of Erik's lottery numbers
+p users["Erik"][:lottery_numbers].sort.first
 # 6. Return an array of Avril's lottery numbers that are even
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
