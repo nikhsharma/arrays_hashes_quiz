@@ -129,8 +129,6 @@ users["Erik"][:home_town] = "Edinburgh"
 users["Erik"][:pets].push({ dog: "Fluffly"})
 
 # 10. Add another person to the users hash
-# bert = {
-#   "Bert" =>
 
 users["Bert"] = {
   twitter: "bertee",
@@ -179,7 +177,7 @@ united_kingdom[1][:capital] = "Cardiff"
 # }
 #united_kingdom.push(northern_ireland)
 
-#another
+#another way-
 united_kingdom.push({
   name: "Northern Ireland",
   population: 1811000,
@@ -200,4 +198,4 @@ for country in united_kingdom
   total_population += country[:population]
 end
 
-p total_population
+p "Total population in the UK is #{total_population}"
