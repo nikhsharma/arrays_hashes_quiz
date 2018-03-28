@@ -129,7 +129,20 @@ users["Erik"][:home_town] = "Edinburgh"
 users["Erik"][:pets].push({ dog: "Fluffly"})
 
 # 10. Add another person to the users hash
+# bert = {
+#   "Bert" =>
 
+users["Bert"] = {
+  twitter: "bertee",
+  lottery_numbers: [12, 3, 46, 2, 32, 25],
+  home_town: "Bertland",
+  pets: [
+    {
+      name: "Magoo",
+      species: "Chimp"
+     }
+  ]
+}
 
 ## Exercise C
 
